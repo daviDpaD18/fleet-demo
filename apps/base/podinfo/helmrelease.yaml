@@ -4,7 +4,8 @@ metadata:
   name: podinfo
   namespace: flux-system
 spec:
-  interval: 5m
+  interval: 1m
+  force: true
   chart:
     spec:
       chart: podinfo
