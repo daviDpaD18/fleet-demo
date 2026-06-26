@@ -18,3 +18,5 @@ spec:
     replicaCount: 4
     service:
       type: ClusterIP
+    autoscaling:
+      enabled: false
